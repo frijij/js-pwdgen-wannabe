@@ -16,8 +16,11 @@ let userName = prompt("Qual è il tuo nome?");
 let userSurname = prompt("Qual è il tuo cognome?");
 let userFavColor = prompt("Qual è il tuo colore preferito?");
 
-//Generare password in console: nomecognomecolorepreferito21
+//Creare variabile per password generata: nomecognomecolorepreferito21
+let generatedPW = `${userName+userSurname+userFavColor+21}`;
 
+//Generare password in console: nomecognomecolorepreferito21
+console.log(generatedPW);
 
 //BONUS
 
