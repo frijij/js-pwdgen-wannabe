@@ -33,7 +33,5 @@ let generatedComplexPW = `${userName+userSurname+userFavColor+choosenumber1+choo
 console.log(generatedComplexPW);
 
 //Stampare le informazioni su HTML
-document.getElementById("generatedcomplexPW").innerHTML = generatedComplexPW
-
-//Fare layout responsive
+document.getElementById("generatedcomplexPW").innerHTML = generatedComplexPW;
 
