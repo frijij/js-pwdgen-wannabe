@@ -19,7 +19,7 @@ let userFavColor = prompt("Qual è il tuo colore preferito?");
 //Creare variabile per password generata: nomecognomecolorepreferito21
 let generatedPW = `${userName+userSurname+userFavColor+21}`;
 
-//Generare password in console: nomecognomecolorepreferito21
+//Stampare password in console: nomecognomecolorepreferito21
 console.log(generatedPW);
 
 //BONUS
@@ -29,12 +29,11 @@ let choosenumber1 = prompt("1. Scegli un numero da 1 a 9:");
 let choosenumber2 = prompt("2. Scegli un numero da 1 a 9:");
 
 //Sostituire i due numeri al 21 nella pw
-let generatedcomplexPW = `${userName+userSurname+userFavColor+choosenumber1+choosenumber2}`;
-console.log(generatedcomplexPW);
+let generatedComplexPW = `${userName+userSurname+userFavColor+choosenumber1+choosenumber2}`;
+console.log(generatedComplexPW);
 
+//Stampare le informazioni su HTML
+document.getElementById("generatedcomplexPW").innerHTML = generatedComplexPW
 
-//Mostrare la pw su html
-
-
-//Fare layout responsive 
+//Fare layout responsive
 
