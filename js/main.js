@@ -12,7 +12,9 @@ CONSIGLIO: Osservate il comportamento di let e var come si comporta sul codice. 
 // INIZIO
 
 //Chiedere informazioni dell'utente: nome, cognome, colore preferito
-
+let userName = prompt("Qual è il tuo nome?");
+let userSurname = prompt("Qual è il tuo cognome?");
+let userFavColor = prompt("Qual è il tuo colore preferito?");
 
 //Generare password in console: nomecognomecolorepreferito21
 
