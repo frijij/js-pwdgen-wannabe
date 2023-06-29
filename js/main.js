@@ -24,7 +24,13 @@ console.log(generatedPW);
 
 //BONUS
 
-//Chiedere all'utente due numeri da sostituire al 21
+//Chiedere all'utente due numeri 
+let choosenumber1 = prompt("1. Scegli un numero da 1 a 9:");
+let choosenumber2 = prompt("2. Scegli un numero da 1 a 9:");
+
+//Sostituire i due numeri al 21 nella pw
+let generatedcomplexPW = `${userName+userSurname+userFavColor+choosenumber1+choosenumber2}`;
+console.log(generatedcomplexPW);
 
 
 //Mostrare la pw su html
